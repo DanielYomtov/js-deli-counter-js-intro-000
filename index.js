@@ -17,7 +17,7 @@ function nowServing(katzDeliLine) {
 
 function currentLine(currentLineOfPeople) {
   let newArr = [];
-  newArr.splice(1, 1, ', ');
+  newArr.splice(1, ' ');
   for(let i = 0; i < currentLineOfPeople.length; i++) {
     if(currentLineOfPeople[i] === undefined){
       return "The line is currently empty.";
