@@ -21,8 +21,8 @@ function currentLine(currentLineOfPeople) {
     if(currentLineOfPeople[i] === undefined){
       return "The line is currently empty.";
     } else {
-      newArr.push(`${i + 1}. ${currentLineOfPeople[i]}`);
+      newArr.push(`${i + 1}. ${currentLineOfPeople[i]}`); 
     }
   }
-  return (`The line is currently: ${newArr}`);
+  return (`The line is currently: ${newArr.join(',  ')}`);
 }
