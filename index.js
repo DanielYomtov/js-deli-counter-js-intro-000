@@ -23,6 +23,7 @@ function currentLine(currentLineOfPeople) {
     } else {
       newArr.push(`${i + 1}. ${currentLineOfPeople[i]}`);
     }
+    return (`The line is currently: ${newArr}`);
   }
-  return (`The line is currently: ${newArr}`);
+
 }
