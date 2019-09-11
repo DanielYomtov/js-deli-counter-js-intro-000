@@ -24,5 +24,5 @@ function currentLine(currentLineOfPeople) {
       newArr.push(`${i + 1}. ${currentLineOfPeople[i]}`);
     }
   }
-  return (`The line is currently: ${newArr.splice(0, ',  ')}`);
+  return (`The line is currently: ${newArr.splice(0, 0, ',  ')}`);
 }
